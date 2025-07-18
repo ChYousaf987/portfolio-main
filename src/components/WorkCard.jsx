@@ -28,7 +28,10 @@ const WorkCard = ({ w }) => {
 
   return (
     <>
-      <div className="bg-[#1a1f35] rounded-2xl shadow-lg border border-gray-700 hover:border-gradient-to-r from-purple-500 to-pink-500 transition-all duration-300 overflow-hidden">
+      <Link
+        href={`/portfolio/${w.id}`}
+        className="bg-[#1a1f35] rounded-2xl shadow-lg border border-gray-700 hover:border-gradient-to-r from-purple-500 to-pink-500 transition-all duration-300 overflow-hidden"
+      >
         <div className="relative w-full h-[200px]">
           <Image
             src={w.backgroundIMG}
@@ -73,7 +76,7 @@ const WorkCard = ({ w }) => {
             </Link>
           </div>
         </div>
-      </div>
+      </Link>
 
       {/* Modal */}
       {showModal && (
