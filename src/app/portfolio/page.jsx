@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { ReactData, VueData } from "@/data/WorkData";
+import { IoOpenOutline } from "react-icons/io5";
 
 export default function PortfolioNew() {
   const allData = [...ReactData, ...VueData]; // Combine React and Vue data
