@@ -129,8 +129,9 @@ const ContactSection = () => {
 
       <footer className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 mt-8 w-full text-white py-4 px-8 flex justify-around items-center">
         <p className="text-sm text-center">
-          Copyright © 2024 by <span className="font-semibold">Ali Hassan</span>{" "}
-          | All Rights Reserved.
+          Copyright © 2024 by{" "}
+          <span className="font-semibold">Yousaf Awais</span> | All Rights
+          Reserved.
         </p>
         <button
           onClick={scrollToTop}

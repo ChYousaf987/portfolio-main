@@ -47,7 +47,7 @@ const HeroSection = () => {
               height={355}
               width={300}
               src="/assets/Yusaf.png" // Replace this path if needed
-              alt="Yousaf Awais"
+              alt="image for Yousaf Awais"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 size-[250px] md:size-[350px] rounded-2xl shadow-lg shadow-pink-500/30 hover:scale-105 hover:rotate-1 transition-all duration-500"
             />
           </div>
