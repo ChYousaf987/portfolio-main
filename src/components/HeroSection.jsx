@@ -46,9 +46,9 @@ const HeroSection = () => {
               loading="eager"
               height={355}
               width={300}
-              src="/assets/Yusaf.png" // Replace this path if needed
+              src="/assets/Yusaf.webp" // Replace this path if needed
               alt="image for Yousaf Awais"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 size-[250px] md:size-[350px] rounded-2xl shadow-lg shadow-pink-500/30 hover:scale-105 hover:rotate-1 transition-all duration-500"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 md:top-1/2 top-32 left-1/2 size-[250px] md:size-[350px] rounded-2xl shadow-lg shadow-pink-500/30 hover:scale-105 hover:rotate-1 transition-all duration-500"
             />
           </div>
         </motion.div>
@@ -78,7 +78,7 @@ const HeroSection = () => {
             <br />
             <span className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-montserrat text-white">
               <TypeAnimation
-                sequence={["App Developer", 1000, "Fullstack Developer", 1000]}
+                sequence={["Fullstack Developer", 1000, "App Developer", 1000]}
                 wrapper="span"
                 speed={40}
                 repeat={Infinity}
