@@ -37,18 +37,15 @@ const HeroSection = () => {
             x: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
           }}
         >
-          <div className="rounded-full bg-transparent relative w-[200px] h-[200px] lg:w-[360px] lg:h-[360px] overflow-hidden mb-6">
-            {/* Glow Effect Background */}
+          <div className="rounded-full bg-transparent relative w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] overflow-hidden mb-6">
             <div className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] absolute transform -translate-x-1/2 translate-y-1/3 left-1/2 rounded-full blur-[20px]"></div>
-
-            {/* Beautified Image */}
             <Image
               loading="eager"
-              height={355}
+              height={315}
               width={300}
-              src="/assets/yousaf3.webp" // Replace this path if needed
-              alt="image for Yousaf Awais"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 md:top-1/2 top-32 left-1/2 size-[250px] md:size-[350px] rounded-2xl shadow-lg shadow-pink-500/30 hover:scale-105 hover:rotate-1 transition-all duration-500"
+              src="/assets/yusaf.webp"
+              alt="me"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain size-[250px] md:size-[300px]"
             />
           </div>
         </motion.div>
