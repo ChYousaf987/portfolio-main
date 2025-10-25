@@ -67,21 +67,23 @@ const AboutSection = () => {
           </div>
 
           {/* Social Media Links */}
-          <div className="mt-6 flex gap-4 text-2xl">
+          <div className="mt-6 flex gap-4 text-3xl">
             <a
               href="https://github.com/ChYousaf987"
-              target=""
+              target="_blank"
               className="hover:scale-110 transition duration-300"
             >
               <FaGithub className="text-gray-300" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/yousafawais"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:scale-110 transition duration-300"
             >
               <FaLinkedin className="text-[#0077B5]" />
             </a>
+
             <a
               href="https://twitter.com/yourusername"
               target="_blank"

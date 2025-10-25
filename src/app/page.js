@@ -42,7 +42,7 @@ export default function Home() {
           href={`https://wa.me/${WhatsappNumber.replace(/\s/g, "")}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-16 left-4 p-2 bg-green-500 text-white rounded-full shadow-lg transition-transform hover:scale-110"
+          className="fixed bottom-8 left-4 p-2 bg-green-500 text-white rounded-full shadow-lg transition-transform hover:scale-110"
           aria-label="Chat with us on WhatsApp"
         >
           <img
