@@ -124,7 +124,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 right-0 w-64 h-screen z-50 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
+          className={`fixed top-0 right-0 w-64 h-screen z-50 bg-black text-white shadow-lg transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -139,7 +139,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 key={id}
                 onClick={(e) => handleHashClick(e, path)}
                 className={`text-lg text-left ${
-                  isActive(id) ? "text-yellow-600 font-bold" : "text-gray-800"
+                  isActive(id) ? "text-yellow-600 font-bold" : "text-gray-100"
                 }`}
               >
                 {name}

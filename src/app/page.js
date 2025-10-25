@@ -11,12 +11,12 @@ export default function Home() {
   const WhatsappNumber = "+923165275052";
 
   return (
-    <main className="flex flex-col relative bg-[#0D1224] text-white">
+    <main className="flex flex-col mt-9 relative bg-[#0D1224] text-white">
       {/* Background Image with overlay */}
       
 
       {/* Page Content */}
-      <div className="relative z-10 container mx-auto ">
+      <div className="relative z-10 mx-auto ">
         {/* Navbar & Hero */}
         <Navbar />
         <HeroSection />
@@ -42,13 +42,13 @@ export default function Home() {
           href={`https://wa.me/${WhatsappNumber.replace(/\s/g, "")}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-4 right-4 p-2 bg-green-500 text-white rounded-full shadow-lg transition-transform hover:scale-110"
+          className="fixed bottom-16 left-4 p-2 bg-green-500 text-white rounded-full shadow-lg transition-transform hover:scale-110"
           aria-label="Chat with us on WhatsApp"
         >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
             alt="WhatsApp"
-            className="w-10 h-10"
+            className="w-14 h-14"
           />
         </a>
 

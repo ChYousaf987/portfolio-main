@@ -48,6 +48,14 @@ const skillsData = {
       img: "https://coursera-university-assets.s3.amazonaws.com/05/353594a7964fdeaff4e10615de58c0/MongoDBSquareLogo.png",
     },
     {
+      name: "Firebase",
+      img: "https://www.gstatic.com/devrel-devsite/prod/v67bcaf34cc3cf781a8625662f12ba4f4fe75fddd41862c37da55318ba5bb8ade/firebase/images/touchicon-180.png",
+    },
+    {
+      name: "Supabase",
+      img: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/supabase.png",
+    },
+    {
       name: "GitHub",
       img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     },
@@ -75,7 +83,7 @@ const skillsData = {
     },
     {
       name: "Next.js",
-      img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x309-yynfidez.png",
+      img: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
     },
   ],
   Frameworks: [

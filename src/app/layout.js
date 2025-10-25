@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${jetBrainsMono.variable} antialiased overflow-x-hidden`}>
+      <body className={`${jetBrainsMono.variable} antialiased overflow-x-hidden bg-black`}>
         <Navbar />
         {children}
       </body>
