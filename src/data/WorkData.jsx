@@ -31,7 +31,7 @@ export const ReactData = [
       "Email.js",
       "Responsive UI/UX",
     ],
-    link: "https://riaz-baker.vercel.app/",
+    link: "https://riazbakers.co.uk/",
     gitlink: "https://github.com/ChYousaf987/riaz-baker",
     site: "https://riaz-baker.vercel.app/",
   },
