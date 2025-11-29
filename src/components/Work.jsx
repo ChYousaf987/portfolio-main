@@ -22,7 +22,7 @@ const Work = () => {
       className="relative bg-[#0D1224] text-white px-4 md:px-12 py-10 font-montserrat overflow-hidden scroll-mt-[80px]"
     >
       <div
-        className="absolute inset-0 z-0 bg-cover bg-no-repeat bg-center opacity-20"
+        className="absolute top-0 left-0 w-full h-full min-h-screen z-0 bg-no-repeat bg-cover bg-center bg-blend-overlay"
         style={{
           backgroundImage: `url('https://abusaid.netlify.app/hero.svg')`,
         }}
